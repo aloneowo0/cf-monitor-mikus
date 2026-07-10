@@ -26,7 +26,7 @@
     } catch(e) {}
   }
 
-  var CDN = 'https://cdn.jsdelivr.net/gh/aloneowo0/komari-mikus@main/public/dist/assets/img/';
+  var CDN = 'https://cdn.jsdelivr.net/gh/aloneowo0/cf-monitor-mikus@main/public/dist/assets/img/';
   var MASCOT_URL = CDN + 'QWQ.webp';
   var LOGO_URL = CDN + 'miku.png';
   var LOLI_URL = CDN + 'loli.gif';
@@ -248,7 +248,7 @@
         ver = ft.querySelector('span');
         ft.innerHTML = '<span>' + (ver ? ver.textContent : '') + '</span>'
           + '<span>Powered by <a href=\"https://github.com/huilang-me/CF-Server-Monitor\" target=\"_blank\">CF-Server-Monitor</a>'
-          + '<span class=\"mikus-credit\"> | Theme by komari-mikus, ported by aloneowo</span></span>'
+          + '<span class=\"mikus-credit\"> | Theme by <a href=\"https://github.com/mikus-loli/komari-mikus\" target=\"_blank\">komari-mikus</a>, ported by <a href=\"https://github.com/aloneowo0/cf-monitor-mikus\" target=\"_blank\">aloneowo</a></span></span>'
           + '<span class=\"mikus-done\" style=\"display:none\"></span>';
       }
     }, 400);
