@@ -406,6 +406,7 @@ body::after {
 .badge,
 .group-tag,
 .price-tag { border-radius: 6px !important; }
+.status-label { white-space: nowrap !important; }
 .badge { color: #fff !important; -webkit-text-fill-color: #fff !important; }
 .badge-bw { background: var(--accent-blue) !important; }
 .badge-tf { background: var(--accent-green) !important; }
