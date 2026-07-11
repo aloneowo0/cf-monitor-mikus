@@ -29,9 +29,9 @@
   --mikus-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.3);
   --mikus-shadow-card: 0 2px 8px rgba(0, 0, 0, 0.2);
   --mikus-shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.4);
-  --glass-blur: 12px;
-  --glass-blur-light: 6px;
-  --glass-saturate: 1.1;
+--glass-blur: 6px;
+--glass-blur-light: 3px;
+--glass-saturate: 1.05;
   --sakura-1: #ffb7c5;
   --sakura-2: #ff8fa3;
   --sakura-3: #e8668a;
@@ -599,8 +599,8 @@ body::after {
 
 .modal-overlay {
   background: rgba(0, 0, 0, 0.58) !important;
-  backdrop-filter: blur(8px) !important;
-  -webkit-backdrop-filter: blur(8px) !important;
+backdrop-filter: blur(4px) !important;
+-webkit-backdrop-filter: blur(4px) !important;
 }
 
 .modal-dialog {
@@ -685,8 +685,8 @@ body::after {
 
 .login-overlay {
   background: rgba(15, 10, 21, 0.62) !important;
-  backdrop-filter: blur(20px) saturate(var(--glass-saturate)) !important;
-  -webkit-backdrop-filter: blur(20px) saturate(var(--glass-saturate)) !important;
+backdrop-filter: blur(12px) saturate(var(--glass-saturate)) !important;
+-webkit-backdrop-filter: blur(12px) saturate(var(--glass-saturate)) !important;
 }
 
 .login-container { border-radius: var(--mikus-radius-xl) !important; }
