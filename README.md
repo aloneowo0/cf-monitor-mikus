@@ -61,10 +61,13 @@ cf-monitor-mikus/
 │   │   └── index.html
 │   ├── komari-theme.json    # 原主题配置
 │   └── mikus.jpg            # 预览截图
-├── theme-mikus/             # CF-Server-Monitor 移植
+├── theme-mikus/             # 当前维护的 CF-Server-Monitor 移植
 │   ├── custom_head.css      # 注入用 CSS（纯 CSS，无 <style> 标签）
-│   ├── custom_head.html     # 同上但包了 <style>（旧版粘贴方式）
 │   └── custom_script.js     # 注入用 JS（IIFE，无 <script> 标签）
+├── theme-mikus-old/         # 旧版移植代码，仅保留作参考
+│   ├── custom_head.css
+│   ├── custom_head.html     # 旧版粘贴方式
+│   └── custom_script.js
 └── README.md
 ```
 
