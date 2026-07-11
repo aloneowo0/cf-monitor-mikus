@@ -1292,8 +1292,10 @@ body.light .nav-area {
 .tab-content,
 .table-wrapper,
 .admin-loading-overlay {
-  backdrop-filter: blur(var(--glass-blur, 16px)) !important;
-  -webkit-backdrop-filter: blur(var(--glass-blur, 16px)) !important;
+  background: var(--bg-card) !important;
+  backdrop-filter: blur(var(--glass-blur, 18px)) saturate(var(--glass-saturate, 1.1)) !important;
+  -webkit-backdrop-filter: blur(var(--glass-blur, 18px)) saturate(var(--glass-saturate, 1.1)) !important;
+  border-radius: var(--mikus-radius-lg, 16px) !important;
 }
 
 .global-stats,
@@ -1311,8 +1313,8 @@ body.light .nav-area {
 .toolbar-input,
 .login-input,
 .settings-grid {
-  backdrop-filter: blur(var(--glass-blur-light, 6px)) !important;
-  -webkit-backdrop-filter: blur(var(--glass-blur-light, 6px)) !important;
+  backdrop-filter: blur(var(--glass-blur-light, 6px)) saturate(var(--glass-saturate, 1.1)) !important;
+  -webkit-backdrop-filter: blur(var(--glass-blur-light, 6px)) saturate(var(--glass-saturate, 1.1)) !important;
 }
 
 
