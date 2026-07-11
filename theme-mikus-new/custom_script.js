@@ -28,6 +28,7 @@
           && localStorage.getItem('theme_preference') !== 'dark'
           && window.matchMedia
           && window.matchMedia('(prefers-color-scheme: light)').matches);
+    console.log('[mikus] isLight=' + isLight + ' bodyLight=' + document.body.classList.contains('light') + ' themePref=' + localStorage.getItem('theme_preference') + ' prefLight=' + (window.matchMedia ? window.matchMedia('(prefers-color-scheme: light)').matches : 'no-mm'));
     var bg = isLight ? '#f8f6f9' : '#0f0a15';
     var barBg = isLight ? '#e8e0f0' : '#2d2040';
     var textMuted = isLight ? '#6b5a7d' : '#b7a7c8';
