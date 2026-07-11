@@ -250,5 +250,6 @@
     scheduleRouteUpdate();
     setTimeout(watchForServerTable, 120);
   });
+  new MutationObserver(function() { updateRouteClasses(); }).observe(document.body, { attributes: true, attributeFilter: ['class'] });
   loadCore();
 })();
