@@ -917,6 +917,10 @@ body.light .login-overlay { background: rgba(248, 246, 249, 0.62) !important; }
   .mikus-deco-2,
   .mikus-deco-3,
   .mikus-sakura-petal { display: none !important; }
+  .nav-area .filter-bar { flex-wrap: wrap !important; gap: 8px !important; justify-content: flex-start !important; padding-top: 12px !important; }
+  .nav-area .filter-bar .view-toggle { width: 100% !important; margin-bottom: 4px !important; }
+  .nav-area .filter-bar .view-toggle .toggle-btn { flex: 1 !important; }
+  .nav-area .filter-bar .filter-tag { margin-left: 0 !important; padding: 4px 10px !important; font-size: 0.78rem !important; white-space: nowrap !important; }
 }
 
 @media (prefers-reduced-motion: reduce) {
